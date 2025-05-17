@@ -1,0 +1,16 @@
+{
+  "collection": "https://markpbaggett.github.io/static_iiif/collections/terminal_escape_full.json",
+  "devCollection": "https://markpbaggett.github.io/static_iiif/collections/terminal_escape_full.json",
+  "metadata": ["subject", "artist", "source"],
+  "label": { "none": ["Terminal Escape"] },
+  "summary": {
+    "none": ["Great Punk Hits from Terminal Escapes Collection"]
+  },
+  "theme": {
+    "defaultTheme": "light",
+    "accentColor": "sky",
+    "grayColor": "mauve",
+    "radius": "small",
+    "scaling": "100%"
+  }
+}
