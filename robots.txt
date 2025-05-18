@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://markpbaggett.github.io/terminal-escape
+
+# Sitemaps
+Sitemap: https://markpbaggett.github.io/terminal-escape/sitemap.xml
