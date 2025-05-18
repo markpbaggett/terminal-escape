@@ -1,5 +1,5 @@
 {
-  "collection": "https://markpbaggett.github.io/static_iiif/collections/terminal_escape_full.json",
+  "collection": "https://iiif.archive.org/iiif/3/terminal-escape-collection/5/collection.json",
   "devCollection": "https://markpbaggett.github.io/static_iiif/collections/terminal_escape_full.json",
   "metadata": ["subject", "artist", "source"],
   "label": { "none": ["Terminal Escape"] },
