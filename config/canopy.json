@@ -12,5 +12,8 @@
     "grayColor": "mauve",
     "radius": "small",
     "scaling": "100%"
+  },
+  "components": {
+    "viewer": "ramp"
   }
 }
