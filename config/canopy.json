@@ -12,5 +12,43 @@
     "grayColor": "mauve",
     "radius": "small",
     "scaling": "100%"
-  }
+  },
+  "search": {
+    "enabled": true,
+    "flexSearch": {
+      "charset": "latin:extra",
+      "optimize": true,
+      "tokenize": "strict",
+      "bidirectional": false,
+      "document": {
+        "id": "id",
+        "index": [
+          {
+            "field": "label",
+            "tokenize": "full",
+            "resolution": 9,
+            "depth": 3,
+            "bidirectional": true
+          },
+          {
+            "field": "metadata",
+            "resolution": 2
+          },
+          {
+            "field": "summary",
+            "resolution": 1
+          }
+        ]
+      }
+    },
+    "index": {
+      "metadata": {
+        "enabled": true,
+        "all": false
+      },
+      "summary": {
+        "enabled": false
+      }
+    }
+  },
 }
