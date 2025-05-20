@@ -21,7 +21,7 @@ module.exports.getManifestThumbnail = async (manifest) => {
        * Finally, attempt generate a thumbnail from the first canvas in the first item in the manifest.
        */
       if (canvasAnnotation.body.type === "Image") {
-        const { best } = await getRepresentativeImage(canvas, 400);
+        const { best } = await getRepresentativeImage(canvas, 120);
         return [
           {
             id: best.id,
