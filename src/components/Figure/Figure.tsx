@@ -16,7 +16,7 @@ const Figure: React.FC<FigureProps> = ({
   alt,
   resource,
   region = "full",
-  size = "400,",
+  size = "100,",
   isCover = false,
 }) => {
   const [image, setImage] = useState();
